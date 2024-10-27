@@ -97,7 +97,7 @@ body {
 }
 header {
   width: 100%;
-  background-color: #f4f4f487;
+  background-color: #f8f8f8;
 }
 .header {
   background-color: unset;
@@ -240,7 +240,7 @@ section {
 /* footer */
 footer {
   width: 100%;
-  background-color: #f4f4f487;
+  background-color: #f8f8f8;
 }
 
 .footer {
@@ -295,13 +295,14 @@ footer {
   .nav-links {
     display: none;
     position: absolute;
-    top: 3rem;
+    top: 5rem;
     right: 0;
-    background-color: #f4f4f487;
+    background-color: #f8f8f8;
     flex-direction: column;
     text-align: left;
     padding: 1rem;
     border-radius: 0.5rem;
+    opacity: 1;
   }
 
   .nav-links.show {
@@ -322,6 +323,7 @@ footer {
     width: 2rem;
   }
 }
+
 .introduction-text .phones {
   display: none;
 }
@@ -339,7 +341,7 @@ footer {
   }
   .introduction-text .introduction-text-bottom {
     font-size: 1rem;
-    color: #818181;
+    color: #f8f8f8;
     font-weight: 400;
   }
 }
