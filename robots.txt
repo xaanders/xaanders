@@ -1,0 +1,16 @@
+
+# robots.txt for https://xaanders.dev/
+
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Allow specific pages
+Allow: /
+Allow: /commonplace.html
+Allow: /experiences.html
+Allow: /principles.html
+Allow: /questions.html
+
+Sitemap: https://xaanders.dev/public/sitemap.xml
