@@ -95,6 +95,7 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
 header {
   width: 100%;
   background-color: #f8f8f8;
@@ -230,7 +231,7 @@ section {
 
 .experience-cards .card,
 .projects-cards .card {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
