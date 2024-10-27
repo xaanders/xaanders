@@ -2,23 +2,23 @@
   "personalQuestions": [
     {
       "question": "What's the most impactful business-related book you've ever read?",
-      "answer": "Good to Great by Jim Collins - a brilliant exploration of what makes companies truly exceptional."
+      "answer": "Good to Great by Jim Collins - a book that could be a guide to success. Some principles could be applied to personal life."
     },
     {
       "question": "What's your all-time favorite non-business book?",
-      "answer": "Sea Wolf by Jack London - a gripping tale of adventure, survival, and the strength of the human spirit."
+      "answer": "Sea Wolf by Jack London - adventure, survival, and the strength of the human spirit. Hard times make strong men."
     },
     {
       "question": "If money were no object, how would you spend your time?",
-      "answer": "I'd be building innovative products and exploring the world, meeting new people, and learning along the way."
+      "answer": "I'd be building products and exploring the world, meeting new people, trying new experiences."
     },
     {
-      "question": " What advice would you offer your younger self?",
+      "question": "What advice would you offer your younger self?",
       "answer": [
         "Embrace the learning curve. The most interesting things live beyond the basics.",
         "Push your limits, both physically and mentally.",
         "Travel the world, and seek out people who inspire you.",
-        "Take ownership of your actions and words; accountability leads to growth."
+        "Take ownership of your actions and words."
       ]
     }
   ],
