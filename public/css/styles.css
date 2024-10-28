@@ -303,6 +303,14 @@ footer {
   height: 100%;
 }
 
+.project-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.project-link a {
+  color: rgb(0, 81, 169);
+}
+
 @media (max-width: 768px) {
   /* burger menu */
   .burger-menu {
