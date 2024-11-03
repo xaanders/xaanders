@@ -1,6 +1,6 @@
 
 const getData = async (dataKey) => {
-    const response = await fetch('./src/data/data.json'); // Updated path to reflect directory structure
+    const response = await fetch('./src/data.json'); // Updated path to reflect directory structure
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -52,3 +52,15 @@ async function loadPrinciples() {
         listContainer.appendChild(listItem);
     });
 }
+
+async function loadCommonplace() {
+    const data = await getData('commonplace');
+    const listContainer = document.getElementById('commonplace-list');
+
+    data.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        listContainer.appendChild(listItem);
+    });
+}
+

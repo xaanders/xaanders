@@ -67,7 +67,14 @@
         <main class="main">
             <div class="wrapper">
                 <article class="content">
-
+                    <div class="content-header">
+                        <h1 class="content-title">Commonplace Book</h1>
+                    </div>
+                    
+                    <div class="post-content">
+                        <ol id="commonplace-list">
+                        </ol>
+                    </div>
                 </article>
             </div>
         </main>
@@ -90,6 +97,10 @@
             <footer>
     </div>
     <script src="./src/script.js"></script>
+    <script src="./src/loadData.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => loadCommonplace());
+    </script>
 </body>
 
 </html>
