@@ -1,6 +1,6 @@
 
 const getData = async (dataKey) => {
-    const response = await fetch('./src/data.json'); // Updated path to reflect directory structure
+    const response = await fetch('../src/data.json'); // Updated path to reflect directory structure
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
