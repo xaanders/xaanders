@@ -46,9 +46,9 @@ Disallow: /
 # Allow specific pages for all bots
 User-agent: *
 Allow: /
-Allow: /commonplace.html
-Allow: /experiences.html
-Allow: /principles.html
-Allow: /questions.html
+Allow: /commonplace
+Allow: /experiences
+Allow: /principles
+Allow: /questions
 
 Sitemap: https://xaanders.dev/public/sitemap.xml
